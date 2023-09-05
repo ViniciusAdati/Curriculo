@@ -1,0 +1,74 @@
+.tudo{
+    font-family: 'Open Sans';
+    color: white;
+    line-height: 1.7;
+}
+h2{
+    font: 10px;
+}
+.icone{
+    width:200px ;
+    height:200px ;
+}
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    padding: 10px 20px 0px 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 255, 0.517);
+}
+
+.main-header-title{
+    line-height:1.5 ;
+    font-size: 40px;
+    font-weight: normal;
+}
+.header-perfil p{
+    font-size: 20px;
+}
+.header-competencia{
+    font-size: 20px;
+}
+.main-content{
+    width: 65%;
+    margin-left: 35%;
+    box-sizing: border-box;
+    padding: 40px 54px 72px;
+}
+.main-content h1{
+    color: rgba(0, 0, 255, 0.517);
+}
+.main-content p{
+    font-size: 18px;
+}
+.twitter{
+    width: 50px;
+    height: 50px;
+    color: rgba(0, 0, 255, 0.517);
+}
+.github{
+    width: 50px;
+    color: rgba(0, 0, 255, 0.517);
+    height: 50px;
+}
+.ul-icons a{
+    color: rgba(0, 0, 255, 0.517);
+    background-image: 20px;
+}
+.foto-redondo{
+    width: 200px; 
+    height: 200px; 
+    background-color: #f0f0f0; 
+    border-radius: 50%; 
+    overflow: hidden; 
+  }
+
+.main-header-link{
+    color: inherit;
+}
+.main-header-link:hover{
+    color: #49bf9d;
+}
