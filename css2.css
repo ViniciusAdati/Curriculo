@@ -72,3 +72,10 @@ h2{
 .main-header-link:hover{
     color: #49bf9d;
 }
+.icon-text {
+    position: relative;
+    top: -30px; 
+    display: block; 
+    right: -70px;
+}
+
