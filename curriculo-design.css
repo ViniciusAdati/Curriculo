@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.header-main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    padding: 10px 20px 0px 20px;
+    box-sizing: border-box;
+    background-color: rgba(184,71,31,255);
+    display: block;
+    color: white;
+}
+
+
+.header-main img{
+    width: 200px; 
+    height: 200px; 
+    background-color: #f0f0f0; 
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+#first-name{
+    font-size: 50px;
+    color: rgba(184,71,31,255);
+    
+}
+#second-name{
+    font-size: 50px;
+    margin-top: -60px;
+    color: rgba(184,71,31,255);
+
+}
+
+.main-content{
+    height: 100%;
+    margin-left: 36%;
+}
+
+.email{
+    color: black;
+    text-decoration: none;
+}
+.Icon,.title-contact, .educação, .experience{
+    color: rgba(184,71,31,255);
+    font-size: 26px ;
+}
+
+.contact .ul-icons a {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.contact .ul-icons a .icon-text,
+.contact .ul-icons a i {
+    color: rgba(184,71,31,255);
+    transition: color 0.8s ease-in; 
+}
+
+
+.contact .ul-icons a:hover .icon-text,
+.contact .ul-icons a:hover i {
+    color: tomato; 
+}
